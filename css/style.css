@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+        padding: 0;
+        margin: 0;
+        font-family: "Noto Sans", sans-serif;
+        font-family: "Poppins", sans-serif;
+
+}
+
+nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        padding: 12px;
+}
+
+ul {
+        display: flex;
+}
+
+ul li {
+        list-style: none;
+        padding: 0 10px;
+}
+
+ul li a {
+        color: white;
+        text-decoration: none;
+}
+
+ul li a:hover {
+        color: rgb(190, 190, 190);
+}
+
+main{
+        min-height: 85.5vh;
+}
+.logo img{
+        filter: invert(1);
+        width: 20px;
+}
+
+.container{
+        max-width: 80vw;
+        margin: auto;
+        padding: 9px 15px;
+}
+
+.container h1{
+        padding: 10px 0;
+}
+
+.btn{
+        background-color: rgb(74, 187, 101);
+        color: white;
+        padding: 9px 12px;
+        border: 1px solid grey;
+        border-radius: 6px;
+        cursor: pointer;
+}
+
+footer {
+        font-size: 13px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+        body{
+                background-color: lightblue;
+                font-size: 12px;
+
+        }
+        nav{
+                flex-direction: column;
+        }
+        .logo{
+                padding: 12px 0;
+        }
+        .logo span{
+                font-size: 20px;
+        }
+}
